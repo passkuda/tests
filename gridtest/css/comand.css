@@ -1,0 +1,67 @@
+
+
+
+
+/* -----------------------------------------------------------------heder-block */
+
+.heder-block{
+
+}
+
+
+.heder-block__container{
+	max-width: 770px;
+}
+
+
+.heder-block__body{
+	max-width: 520px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.heder-block__body *:last-child{
+	margin-bottom: 0;
+}
+
+.heder-block__lable{
+	margin-bottom: 8px;
+	color: rgb(48, 86, 211);
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.33; /* 24/18 */
+}
+
+.heder-block__title{
+	margin-bottom: 15px;
+	color: rgb(33, 43, 54);
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.12; /* 45/40 */
+}
+
+.heder-block__text > p:not(:last-child){
+	margin-bottom: 15px;
+	
+}
+
+.heder-block_mergin{
+	margin-bottom: 70px;
+}
+
+
+@media (max-width:991.98px) {
+	.heder-block_mergin{
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width:500px) {
+	.heder-block__title{
+		font-size: 30px;
+	}
+	
+}
+
