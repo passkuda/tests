@@ -1,31 +1,100 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
-	<title>shop</title>
+	<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+	<title>tractors</title>
 </head>
 <body>
-	
 	<div class="wrapper">
-		<h1 class="title">Tractor name</h1>
-		<div class="wrapper-img">
-			<img src="/img/slider/02.jpg" alt="">
-		</div>
-		<div class="blosc">
-			<p>
-				тут фото продукта  слайдер (сейчас нет но идея такая) и можно будет на слайде посмотреть кучу фоток трактора со всех сторон
-			</p>
-			<p>
-				technical characteristics
-				in general all information about the tractor
-			</p>
-			<p>
-				technical characteristics
-				in general all information about the tractor
-			</p>
-		</div>
-		<button>Купить\ Заказать  итд</button>
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<a href="index.html" class="header__logo">
+						<img src="img/icons/logo.svg" alt="logo">
+					</a>
+					<div class="header__burger"><span></span></div>
+					<nav class="header__menu">
+						<ul class="header__list">
+							<li>
+								<a class="header__link" href="#">Mini Excavator</a>
+							</li>
+							<li>
+								<a class="header__link" href="#">Mini tractors</a>
+							</li>
+							<li>
+								<a class="header__link" href="#">Motoblocks</a>
+							</li>
+							<li>
+								<a class="header__link" href="#">About Us</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main>
+			<h2 class="name-product">Mini Excavator</h2>
+			<div class="slaider-product swiper">
+				<!-- Additional required wrapper -->
+				<div class=" swiper-wrapper">
+				<!-- Slides -->
+					<div class="swiper-slide">
+						<img src="img/tract-img/01.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/tract-img/02.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/tract-img/03.jpg" alt="">
+					</div>
+					<div class="swiper-slide">
+						<img src="img/tract-img/04.jpg" alt="">
+					</div>
+				</div>
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+			</div>
+			<h2 class="name-product">Mini Excavator</h2>
+			<div class="specifications">
+				<div class="specifications__items">
+					<div class="specifications__power">Engine Power
+						<span>10hp koop engine</span>
+					</div>
+					<div class="specifications__weig">operating weight
+						<span>1000kg</span>
+					</div>
+					<div class="specifications__dip">dig depth
+						<span>1580mm</span>
+					</div>
+					<div class="specifications__features">features 
+						<span>swir</span>
+					</div>
+				</div>
+				<div class="specifications__items">
+					<div class="specifications__buckets">
+						Buckets Package include.
+						<span>
+							200mm, 360mm, and 500mm Buskets, thumb grab, and half quick hitch
+						</span>
+					</div>
+					<div class="specifications__attachments">
+						Full Attachments Package Price include
+						<span>
+							200mm, 360mm,500mm and 800mm Busket, thumb grab, ripper, 200mm auger, rake and half quick hitch
+						</span>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			
+		</footer>
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
